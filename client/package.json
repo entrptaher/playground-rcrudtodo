@@ -1,0 +1,57 @@
+{
+  "name": "redux_crud",
+  "version": "0.1.0",
+  "description": "Basic CRUD template in React and Redux",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeuTrix/redux_crud_todolist.git"
+  },
+  "author": "NeuTrix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NeuTrix/redux_crud_todolist/issues"
+  },
+  "homepage": "https://github.com/NeuTrix/redux_crud_todolist#readme",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.17.1",
+    "babel-plugin-transform-decorators": "^6.24.1",
+    "chai-enzyme": "^0.8.0",
+    "jquery": "^3.2.1",
+    "jsxhint": "^0.15.1",
+    "lodash": "^4.17.4",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.31.5",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "^1.0.17",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^5.0.0",
+    "redux-thunk": "^2.2.0",
+    "shortid": "^2.2.8",
+    "tree-list": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-jest": "^22.0.4",
+    "chai": "^4.1.2",
+    "deep-freeze": "^0.0.1",
+    "enzyme": "^3.2.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "eslint": "^4.14.0",
+    "eslint-plugin-react": "^7.5.1",
+    "expect": "^22.0.3",
+    "faker": "^4.1.0",
+    "jest": "^22.0.4",
+    "react-addons-test-utils": "^15.6.2"
+  }
+}
